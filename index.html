@@ -125,19 +125,50 @@
 								<a href="https://github.com/heitorznx/projeto-rossmann" class="image fit thumb"><img src="images/fulls/sales_img.avif" alt="" /></a>
 								<h3>Previsão de Faturamento com Machine Learning (Rossmann Stores)
 								</h3>
-								<p>O Problema: O CFO da rede de farmácias Rossmann precisava prever o faturamento das próximas 6 semanas de 1115 lojas 
-									para determinar o orçamento destinado à reforma de cada unidade.
+								<p><strong>O Desafio(fictício):</strong> A rede de farmácias Rossmann precisava estimar, com até 6 semanas de antecedência, quanto cada uma de suas 1.115 lojas iria faturar 
+									— informação essencial para o planejamento de um investimento em reforma das unidades. 
+									Até então, essa previsão era feita manualmente por cada gerente, 
+									o que resultava em estimativas pouco padronizadas e inconsistentes entre as lojas.
 								</p>
-								<p>A Solução: Conduzi um projeto de Ciência de Dados end-to-end baseado na metodologia CRISP-DM. Após a limpeza, exploração dos dados e 
-									testes com múltiplos algoritmos, um modelo XGBoost Regressor foi treinado e calibrado.
+								<p><strong>A Solução:</strong> Desenvolvi um projeto de Ciência de Dados ponta a ponta, seguindo o método CRISP-DM: desde a limpeza e exploração dos dados 
+									(validando 12 hipóteses de negócio sobre o comportamento das vendas) até o treinamento e comparação de diferentes algoritmos de regressão. 
+									O modelo XGBoost foi o que apresentou melhor desempenho e passou por um processo de ajuste fino de hiperparâmetros.
 								</p>
-								<p>O Impacto: O modelo alcançou um erro médio (MAPE) de apenas 12%. Traduzindo essa métrica técnica para resultados financeiros, 
-									a solução consegue prever um faturamento estimado de $290 milhões no período, dando segurança para as decisões do CFO.
-									O produto final foi disponibilizado em produção através de uma API construída com Flask, integrada a um Bot no Telegram (@rossmannproject_bot), 
-									permitindo que os gerentes consultem a previsão de suas lojas em tempo real pelo celular.
+								<p><strong>O Impacto:</strong> O modelo final atingiu um erro médio (MAPE) de 11,6%, reduzindo o erro do baseline em mais de 4x. Essa performance permitiu estimar um faturamento de aproximadamente 
+									R$ 285 milhões para as próximas 6 semanas, com cenários de melhor e pior caso para apoiar a tomada de decisão. A solução foi colocada em produção por meio de uma API em Flask, 
+									integrada a um bot do Telegram (@rossmann_proj_bot), permitindo que qualquer gerente consulte a previsão de sua loja em tempo real, direto do celular.
 								</p>
 								<br/>
 								<h2>Ferramentas Utilizadas:</h2>
+								<h4>Linguagem & Manipulação de Dados</h4>
+								<ul>
+									<li>Python</li>
+									<li>Pandas / NumPy</li>
+								</ul>
+								<h4>Análise & Visualização</h4>
+								<ul>
+									<li>Matplotlib / Seaborn</li>
+								</ul>
+								<h4>Análise & Visualização</h4>
+								<ul>
+									<li>Matplotlib / Seaborn</li>
+								</ul>
+								<h4>Machine Learning</h4>
+								<ul>
+									<li>Scikit-learn</li>
+									<li>XGBoost</li>
+									<li>Boruta (feature selection)</li>
+								</ul>
+								<h4>Deploy & Produção</h4>
+								<ul>
+									<li>Flask</li>
+									<li>Render</li>
+									<li>Telegram Bot API</li>
+								</ul>
+								<h4>Versionamento</h4>
+								<ul>
+									<li>Git / GitHub</li>
+								</ul>
 								<br/>
 								<a href="https://github.com/heitorznx/projeto-rossmann" class="button">SAIBA MAIS</a>
 							</article>

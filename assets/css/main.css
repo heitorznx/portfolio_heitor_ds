@@ -3228,3 +3228,7 @@ input, select, textarea {
 article.col-6 p {
 	margin-bottom: 1.5em; /* O padrão costuma ser 2em ou 2.5em. Reduzindo para 1em o espaço cai pela metade */
 }
+
+h4{
+	margin-bottom: 0.2em;
+}
